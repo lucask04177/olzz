@@ -1,7 +1,99 @@
 body {
   margin: 0;
+  background-color: white;
 }
 
 nav {
   display: flex;
+}
+
+.main-top {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(#e66465, #9198e5);
+  position: relative;
+  color: white;
+}
+
+.main-top-text {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+.default-btn {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main-top-image img{
+  position: absolute;
+ right: 200px;
+  width: 20%;
+  bottom: 0px;
+}
+
+.main-middle {
+  margin: auto;
+  text-align: center;
+  margin: 100px;
+}
+
+.main-bottom {
+  width: 100%;
+  height: 500px;
+  background-color: skyblue;
+  text-align: center;
+  position: relative;
+  padding: 1px;
+}
+
+.main-bottom-text {
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.icons img{
+  width: 5%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icons-img {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.sub-main {
+  text-align: center;
+}
+
+.sub-main-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sub-main-img img{
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 150px black solid;
+  border-inline: solid;
+}
+
+.sub-main-img img:hover{
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
 }
